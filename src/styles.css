@@ -69,6 +69,10 @@
         height: 2rem;
     }
 
+    a {
+        text-decoration: underline;
+    }
+
     .upload-area {
         padding: 1rem;
         border: 2px dashed #cbd5e1; /* slate-300 */
@@ -286,5 +290,15 @@
 
     .message-item.pinned:hover {
         border-color: #f97316; /* orange-500 */
+    }
+
+    .info-text {
+        max-width: 800px;
+        margin: 0 auto 1.5rem auto;
+        color: #475569; /* slate-600 */
+        font-size: 1rem;
+        p {
+            margin-bottom: 0.75rem;
+        }
     }
 } 
