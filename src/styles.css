@@ -242,6 +242,8 @@
         font-size: 0.875rem;
         transition: color 0.2s;
         text-align: center;
+        position: absolute;
+        bottom: 10px;
     }
 
     .read-more-link span {
